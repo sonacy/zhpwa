@@ -1,0 +1,154 @@
+.wed-half-item-header {
+  position: fixed;
+  width: 100%;
+  height: 48px;
+  top: 0;
+  background-color: #fafafa;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+  text-align: center;
+  font-size: 16px;
+  line-height: 48px;
+}
+
+.wed-half-item-header-back {
+  position: absolute;
+  left: 4px;
+  width: 24px;
+  height: 24px;
+}
+
+.wed-half-item-name {
+  margin: 60px 12px 12px 12px;
+  background-color: #fff;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, .1), -1px -1px 5px rgba(0, 0, 0, .1);
+  display: flex;
+  flex-direction: row;
+  height: 96px;
+  border-radius: 4px;
+}
+
+.wed-half-item-name-img {
+  flex: 0 0 100px;
+  width: 100px;
+  height: 80px;
+  margin: 8px;
+}
+
+.wed-half-item-name-content {
+  flex: 1;
+  margin: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.wed-half-item-name-title {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.wed-half-item-address {
+  background-color: #fff;
+  width: 100%;
+}
+
+.wed-half-item-address-title {
+  color: #333;
+  padding: 8px 12px;
+  font-size: 16px;
+  font-weight: 500;
+  height: 32px;
+  line-height: 32px;
+  border-bottom: 1px solid #fafafa;
+}
+
+.wed-half-item-address-content {
+  padding: 8px 12px;
+  border-bottom: 1px solid #fafafa;
+}
+
+.wed-half-item-address-name {
+  font-size: 16px;
+  height: 32px;
+  line-height: 32px;
+  color: #666;
+}
+
+.wed-half-item-address-add {
+  font-size: 14px;
+  height: 30px;
+  line-height: 30px;
+  color: #999;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.wed-half-item-address-phone {
+  font-size: 14px;
+  height: 30px;
+  line-height: 30px;
+  color: #999;
+}
+
+.wed-half-item-address-all {
+  padding: 8px 12px;
+  line-height: 32px;
+  height: 32px;
+  color: #666;
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.wed-half-item-desc {
+  background-color: #fff;
+  width: 100%;
+  margin-top: 12px;
+  padding-bottom: 60px;
+}
+
+.wed-half-item-desc-title {
+  color: #333;
+  padding: 0 12px;
+  font-size: 16px;
+  font-weight: 500;
+  height: 32px;
+  line-height: 32px;
+}
+
+.wed-half-item-desc-label {
+  color: #666;
+  padding: 0 12px;
+  font-size: 14px;
+  height: 30px;
+  line-height: 30px;
+}
+
+.wed-half-item-desc-text {
+  color: #333;
+  padding: 0 12px;
+  font-size: 14px;
+  margin-left: 14px;
+}
+
+.wed-half-item-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 48px;
+  background-color: #fff;
+}
+
+.wed-half-item-footer-btn {
+  width: 90%;
+  color: #fff;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  margin: 8px 5% 8px 5%;
+  border-radius: 4px;
+  display: inline-block;
+}

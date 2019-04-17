@@ -1,0 +1,62 @@
+.wed-halg-list-item {
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #ccc;
+}
+
+.wed-halg-list-item-img {
+  flex: 0 0 100px;
+  padding: 8px 0 8px 12px;
+}
+
+.wed-halg-list-item-content {
+  flex: 1;
+  color: #333;
+  padding: 8px 12px;
+  overflow: hidden;
+}
+
+.wed-halg-list-item-name {
+  font-size: 16px;
+  line-height: 32px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.wed-halg-list-item-desc {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.wed-halg-list-item-type {
+  font-size: 12px;
+  color: #ccc;
+  padding-top: 12px;
+  padding-left: 8px;
+}
+
+.wed-halg-list-item-btn {
+  width: 80px;
+  font-size: 16px;
+  padding: 4px 8px;
+  color: #fff;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.wed-halg-list-operation {
+  position: fixed;
+  top: 0;
+  height: 48px;
+  width: 100%;
+  line-height: 48px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  z-index: 99;
+  background-color: #fff;
+}
